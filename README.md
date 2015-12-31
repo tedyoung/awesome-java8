@@ -49,3 +49,11 @@ Tools to help upgrade your code to Java 8, or other utilities that don't become 
 
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Use this Maven plugin to find out what libraries you can get rid of and replace with Java 8 (and 7) built-in classes.
 
+
+# Books & Videos
+
+I hesitated to add this, but with the restriction that these be real books and videos (as in, not a promotion or tied to a specific vendor of products), then let's see how this goes.
+
+* [Java 8 in Action](https://www.manning.com/books/java-8-in-action) - One of the earlier Java 8 books, but has lots of good diagrams and pictures to help one learn about things like internal vs. external iteration in streams.
+* [Java 8 Lambdas](http://shop.oreilly.com/product/0636920030713.do) - Written by the author of the Lambda Behave testing framework, clearly Richard Warburton knows his lambdas. Concise, yet covers testing & debugging, design, and concurrency.
+* [What's New in Java 8](https://leanpub.com/whatsnewinjava8) - Free to read online, and includes lots of examples. Includes lambdas, streams, Nashorn (JavaScript engine), and the new Date/Time API.

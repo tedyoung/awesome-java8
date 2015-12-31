@@ -56,4 +56,5 @@ I hesitated to add this, but with the restriction that these be real books and v
 
 * [Java 8 in Action](https://www.manning.com/books/java-8-in-action) - One of the earlier Java 8 books, but has lots of good diagrams and pictures to help one learn about things like internal vs. external iteration in streams.
 * [Java 8 Lambdas](http://shop.oreilly.com/product/0636920030713.do) - Written by the author of the Lambda Behave testing framework, clearly Richard Warburton knows his lambdas. Concise, yet covers testing & debugging, design, and concurrency.
+* [Java SE 8 for the Really Impatient](http://www.informit.com/store/java-se8-for-the-really-impatient-a-short-course-on-9780321927767) - Cay S. Horstmann has been writing Java books forever. This book is right on target and includes even some of the "minor" new features in Java 8, such as using a lambda to do "compare-and-set" operations on atomic variables.
 * [What's New in Java 8](https://leanpub.com/whatsnewinjava8) - Free to read online, and includes lots of examples. Includes lambdas, streams, Nashorn (JavaScript engine), and the new Date/Time API.

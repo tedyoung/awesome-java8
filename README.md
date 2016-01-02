@@ -41,6 +41,8 @@ Frameworks (and micro-frameworks) that make it easy to create services that prov
 * [Play Framework](https://www.playframework.com/documentation/2.4.x/Installing) - The popular Play Framework, from Typesafe, is "reactive" and built on Akka (the Actor framework) and supports non-blocking I/O, and is stateless. :8ball:
 * [Ratpack](https://ratpack.io) - Reactive framework built on the [Netty](http://netty.io/) engine for non-blocking I/O. Also supports Groovy. :8ball:
 * [Spark Java](http://sparkjava.com/) - Concise  (micro-) framework for quickly creating Web APIs or web pages. Does not use annotations. Embeds the [Jetty](http://eclipse.org/jetty/) web server. :8ball:
+* [Apollo](http://spotify.github.io/apollo/) - A library for writing HTTP microservices that focuses on composability and simplicity, with high performance using modern Java idioms and features. :8ball:
+* [Rapidoid](http://www.rapidoid.org/) - A set of decoupled frameworks that together can build a full stack web application.
 
 
 # Tools

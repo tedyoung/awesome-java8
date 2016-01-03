@@ -13,8 +13,10 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
 Libraries that make Java 8 more functional, especially filling in the gaps in streams.
 
 * [Javaslang](http://javaslang.com/) - Adds the notion of Tuples, along with immutable Values and Pattern Matching, to make it easier to write more functional Java code. :8ball:
+* [Javaslang-CircuitBreaker](https://github.com/RobWin/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library designed for Java8 and functional programming based on Javaslang.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Part of the jOOQ series of libraries, provides more Functions, Tuples, and `Seq` that provides methods like `crossJoin()`, `join()`, and `groupBy()`. :8ball:
 * [ProtonPack](https://github.com/poetix/protonpack) - Offers about a dozen utilities for `Stream`, e.g., `takeWhile`, `zip`, `aggregate`, and a `unique` collector. :8ball: 
+
 
 ## Interoperability libraries
 
@@ -24,7 +26,7 @@ Not sure what to call these other than interoperability libraries, i.e., librari
 
 ## Reactive libraries
 
-Focused on "pulling" items from a stream. There may be overlap between these libraries and the Functional ones (above), but the ones here are primarily/exclusively focused on the [Reactive](http://www.reactive-streams.org/) way of thinking about streams.
+Focuased on "pulling" items from a stream. There may be overlap between these libraries and the Functional ones (above), but the ones here are primarily/exclusively focused on the [Reactive](http://www.reactive-streams.org/) way of thinking about streams.
 
 * [Simple React](https://github.com/aol/simple-react) - A library that focuses on users needing async and lazy streams. A helpful table comparing the included implementations with Java 8 is [here](https://github.com/aol/simple-react#stream-type-overview). Very well documented with lots of diagrams (yay!). :8ball:
 

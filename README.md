@@ -16,6 +16,10 @@ Libraries that make Java 8 more functional, especially filling in the gaps in st
 * [jOOλ](https://github.com/jOOQ/jOOL) - Part of the jOOQ series of libraries, provides more Functions, Tuples, and `Seq` that provides methods like `crossJoin()`, `join()`, and `groupBy()`. :8ball:
 * [ProtonPack](https://github.com/poetix/protonpack) - Offers about a dozen utilities for `Stream`, e.g., `takeWhile`, `zip`, `aggregate`, and a `unique` collector. :8ball: 
 
+## Networking libraries
+
+* [Javaslang-CircuitBreaker](https://github.com/RobWin/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library designed for Java8 and functional programming based on Javaslang. :8ball: 
+
 ## Interoperability libraries
 
 Not sure what to call these other than interoperability libraries, i.e., libraries that make it easier to work with existing libraries that Java 8 provides. I could be convinced to put this under Functional libraries...

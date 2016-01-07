@@ -1,8 +1,23 @@
-# Awesome Java 8
+﻿# Awesome Java 8
 
 A curated list of useful, if not amazingly awesome, tools, libraries, frameworks, and other resources that take advantage of (or even require) Java 8 features, such as Lambdas, or have a more modern approach to writing Java code. Those that **require** Java 8 are marked with an :8ball: emoji (for "eight ball" or sometimes "billiards").
 
 If you want a larger list of Java resources not specific to Java 8, check out [Awesome Java](https://github.com/akullpp/awesome-java).
+
+----
+
+# Table of Contents
+
+- [Libraries and Frameworks](#libraries-and-frameworks)
+    - [Functional libraries](#functional-libraries)
+    - [Interoperability libraries](#interoperability-libraries)
+    - [Networking libraries](#networking-libraries)
+    - [Reactive libraries](#reactive-libraries)
+    - [Testing](#testing)
+    - [Web App/API frameworks](#web-appapi-frameworks)
+- [Tools](#tools)
+- [Books & Videos](#books--videos)
+
 
 ----
 
@@ -17,15 +32,15 @@ Libraries that make Java 8 more functional, especially filling in the gaps in st
 * [jOOλ](https://github.com/jOOQ/jOOL) - Part of the jOOQ series of libraries, provides more Functions, Tuples, and `Seq` that provides methods like `crossJoin()`, `join()`, and `groupBy()`. :8ball:
 * [ProtonPack](https://github.com/poetix/protonpack) - Offers about a dozen utilities for `Stream`, e.g., `takeWhile`, `zip`, `aggregate`, and a `unique` collector. :8ball: 
 
-## Networking libraries
-
-* [Javaslang-CircuitBreaker](https://github.com/javaslang/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library designed for Java8 and functional programming based on Javaslang. :8ball: 
-
 ## Interoperability libraries
 
 Not sure what to call these other than interoperability libraries, i.e., libraries that make it easier to work with existing libraries that Java 8 provides. I could be convinced to put this under Functional libraries...
 
 * [Cyclops](https://github.com/aol/cyclops) - Very modular, so only include what you need. From function exception handling (`try`), to generic monad operations, to pattern matching. Specific integrations to Javaslang, functionaljava, and Guava. :8ball:
+
+## Networking libraries
+
+* [Javaslang-CircuitBreaker](https://github.com/javaslang/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library designed for Java8 and functional programming based on Javaslang. :8ball: 
 
 ## Reactive libraries
 

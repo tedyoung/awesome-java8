@@ -22,6 +22,13 @@ Not sure what to call these other than interoperability libraries, i.e., librari
 
 * [Cyclops](https://github.com/aol/cyclops) - Very modular, so only include what you need. From function exception handling (`try`), to generic monad operations, to pattern matching. Specific integrations to Javaslang, functionaljava, and Guava. :8ball:
 
+## Microservices
+
+While the term can sometimes be ambiguous, hopefully it'll become more clear as new libraries and frameworks become available. This section may include entire frameworks, or libraries that help with coordinating and connecting separately deployed services (aka microservices).
+
+* [Apollo](http://spotify.github.io/apollo/) - A library for writing HTTP microservices that focuses on composability and simplicity, with high performance using modern Java idioms and features. :8ball:
+* [SnoopEE](https://github.com/ivargrimstad/snoop) - While this is "experimental", it's worth looking at if you're coming to microservices from a "slimmed down" Java EE point of view and need something to handle service discovery. This was shown in a JavaOne 2015 conference talk [here](https://youtu.be/REuBLPTeFDg). :8ball:
+
 ## Reactive libraries
 
 Focused on "pulling" items from a stream. There may be overlap between these libraries and the Functional ones (above), but the ones here are primarily/exclusively focused on the [Reactive](http://www.reactive-streams.org/) way of thinking about streams.
@@ -38,7 +45,6 @@ Focused on "pulling" items from a stream. There may be overlap between these lib
 
 Frameworks (and micro-frameworks) that make it easy to create services that provide Web APIs (aka REST), and/or full web sites without a "full-blown" JAX-RS implementation.
 
-* [Apollo](http://spotify.github.io/apollo/) - A library for writing HTTP microservices that focuses on composability and simplicity, with high performance using modern Java idioms and features. :8ball:
 * [Play Framework](https://www.playframework.com/documentation/2.4.x/Installing) - The popular Play Framework, from Typesafe, is "reactive" and built on Akka (the Actor framework) and supports non-blocking I/O, and is stateless. :8ball:
 * [Ratpack](https://ratpack.io) - Reactive framework built on the [Netty](http://netty.io/) engine for non-blocking I/O. Also supports Groovy. :8ball:
 * [Spark Java](http://sparkjava.com/) - Concise  (micro-) framework for quickly creating Web APIs or web pages. Does not use annotations. Embeds the [Jetty](http://eclipse.org/jetty/) web server. :8ball:

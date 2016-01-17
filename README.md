@@ -1,8 +1,24 @@
-# Awesome Java 8
+# Awesome Java 8  [![Build Status](https://travis-ci.org/tedyoung/awesome-java8.svg?branch=master)](https://travis-ci.org/tedyoung/awesome-java8)
 
 A curated list of useful, if not amazingly awesome, tools, libraries, frameworks, and other resources that take advantage of (or even require) Java 8 features, such as Lambdas, or have a more modern approach to writing Java code. Those that **require** Java 8 are marked with an :8ball: emoji (for "eight ball" or sometimes "billiards").
 
 If you want a larger list of Java resources not specific to Java 8, check out [Awesome Java](https://github.com/akullpp/awesome-java).
+
+----
+
+# Table of Contents
+
+- [Libraries and Frameworks](#libraries-and-frameworks)
+    - [Functional libraries](#functional-libraries)
+    - [Interoperability libraries](#interoperability-libraries)
+    - [Microservices](#microservices)
+    - [Networking libraries](#networking-libraries)
+    - [Reactive libraries](#reactive-libraries)
+    - [Testing](#testing)
+    - [Web App/API frameworks](#web-appapi-frameworks)
+- [Tools](#tools)
+- [Books & Videos](#books--videos)
+
 
 ----
 
@@ -12,6 +28,7 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
 
 Libraries that make Java 8 more functional, especially filling in the gaps in streams.
 
+* [Derive4J](https://github.com/derive4j/derive4j) - Code generator for user-defined algebraic data types (aka sum types) based on an enhanced "visitor" pattern. Provides structural pattern matching, laziness, functional setters (return a copy of an object with one field modified) & more. :8ball:
 * [Javaslang](http://javaslang.com/) - Adds the notion of Tuples, along with immutable Values and Pattern Matching, to make it easier to write more functional Java code. :8ball:
 * [jOOλ](https://github.com/jOOQ/jOOL) - Part of the jOOQ series of libraries, provides more Functions, Tuples, and `Seq` that provides methods like `crossJoin()`, `join()`, and `groupBy()`. :8ball:
 * [ProtonPack](https://github.com/poetix/protonpack) - Offers about a dozen utilities for `Stream`, e.g., `takeWhile`, `zip`, `aggregate`, and a `unique` collector. :8ball: 
@@ -28,6 +45,10 @@ While the term can sometimes be ambiguous, hopefully it'll become more clear as 
 
 * [Apollo](http://spotify.github.io/apollo/) - A library for writing HTTP microservices that focuses on composability and simplicity, with high performance using modern Java idioms and features. :8ball:
 * [SnoopEE](https://github.com/ivargrimstad/snoop) - While this is "experimental", it's worth looking at if you're coming to microservices from a "slimmed down" Java EE point of view and need something to handle service discovery. This was shown in a JavaOne 2015 conference talk [here](https://youtu.be/REuBLPTeFDg). :8ball:
+
+## Networking libraries
+
+* [Javaslang-CircuitBreaker](https://github.com/javaslang/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library designed for Java8 and functional programming based on Javaslang. :8ball:
 
 ## Reactive libraries
 
@@ -47,7 +68,7 @@ Frameworks (and micro-frameworks) that make it easy to create services that prov
 
 * [Play Framework](https://www.playframework.com/documentation/2.4.x/Installing) - The popular Play Framework, from Typesafe, is "reactive" and built on Akka (the Actor framework) and supports non-blocking I/O, and is stateless. :8ball:
 * [Ratpack](https://ratpack.io) - Reactive framework built on the [Netty](http://netty.io/) engine for non-blocking I/O. Also supports Groovy. :8ball:
-* [Spark Java](http://sparkjava.com/) - Concise  (micro-) framework for quickly creating Web APIs or web pages. Does not use annotations. Embeds the [Jetty](http://eclipse.org/jetty/) web server. :8ball:
+* [Spark Java](http://sparkjava.com/) - Concise  (micro-) framework for quickly creating Web APIs or web pages. Does not use annotations. Embeds the [Jetty](http://www.eclipse.org/jetty/) web server. :8ball:
 
 
 # Tools

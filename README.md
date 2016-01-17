@@ -44,7 +44,7 @@ Not sure what to call these other than interoperability libraries, i.e., librari
 While the term can sometimes be ambiguous, hopefully it'll become more clear as new libraries and frameworks become available. This section may include entire frameworks, or libraries that help with coordinating and connecting separately deployed services (aka microservices).
 
 * [Apollo](http://spotify.github.io/apollo/) - A library for writing HTTP microservices that focuses on composability and simplicity, with high performance using modern Java idioms and features. :8ball:
-* [SnoopEE](https://github.com/ivargrimstad/snoop) - While this is "experimental", it's worth looking at if you're coming to microservices from a "slimmed down" Java EE point of view and need something to handle service discovery. This was shown in a JavaOne 2015 conference talk [here](https://youtu.be/REuBLPTeFDg). :8ball:
+* [SnoopEE](https://github.com/ivargrimstad/snoop) - While this is "experimental", it's worth looking at if you're coming to microservices from a "slimmed down" Java EE point of view and need something to handle service discovery. This was shown in a JavaOne 2015 conference talk [here](https://www.youtube.com/watch?v=REuBLPTeFDg). :8ball:
 
 ## Networking libraries
 

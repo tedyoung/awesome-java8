@@ -1,4 +1,4 @@
-# Awesome Java 8  [![Build Status](https://travis-ci.org/tedyoung/awesome-java8.svg?branch=master)](https://travis-ci.org/tedyoung/awesome-java8)
+﻿# Awesome Java 8  [![Build Status](https://travis-ci.org/tedyoung/awesome-java8.svg?branch=master)](https://travis-ci.org/tedyoung/awesome-java8)
 
 A curated list of useful, if not amazingly awesome, tools, libraries, frameworks, and other resources that take advantage of (or even require) Java 8 features, such as Lambdas, or have a more modern approach to writing Java code. Those that **require** Java 8 are marked with an :8ball: emoji (for "eight ball" or sometimes "billiards").
 
@@ -66,6 +66,7 @@ Focused on "pulling" items from a stream. There may be overlap between these lib
 
 Frameworks (and micro-frameworks) that make it easy to create services that provide Web APIs (aka REST), and/or full web sites without a "full-blown" JAX-RS implementation.
 
+* [Jooby Project](https://github.com/jooby-project/jooby) - A modular web framework that supports multiple servers (Netty, Jetty, and Undertow), Websockets, etc., and can be used in many different ways by including a wide variety of modules, e.g., provide a full MVC web site, or just provide APIs. :8ball: 
 * [Play Framework](https://www.playframework.com/documentation/2.4.x/Installing) - The popular Play Framework, from Typesafe, is "reactive" and built on Akka (the Actor framework) and supports non-blocking I/O, and is stateless. :8ball:
 * [Ratpack](https://ratpack.io) - Reactive framework built on the [Netty](http://netty.io/) engine for non-blocking I/O. Also supports Groovy. :8ball:
 * [Spark Java](http://sparkjava.com/) - Concise  (micro-) framework for quickly creating Web APIs or web pages. Does not use annotations. Embeds the [Jetty](http://www.eclipse.org/jetty/) web server. :8ball:

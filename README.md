@@ -1,4 +1,4 @@
-﻿# Awesome Java 8  [![Build Status](https://travis-ci.org/tedyoung/awesome-java8.svg?branch=master)](https://travis-ci.org/tedyoung/awesome-java8)
+# Awesome Java 8  [![Build Status](https://travis-ci.org/tedyoung/awesome-java8.svg?branch=master)](https://travis-ci.org/tedyoung/awesome-java8)
 
 A curated list of useful, if not amazingly awesome, tools, libraries, frameworks, and other resources that take advantage of (or even require) Java 8 features, such as Lambdas, or have a more modern approach to writing Java code. Those that **require** Java 8 are marked with an :8ball: emoji (for "eight ball" or sometimes "billiards").
 
@@ -13,6 +13,7 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
     - [Interoperability libraries](#interoperability-libraries)
     - [Microservices](#microservices)
     - [Networking libraries](#networking-libraries)
+    - [Persistence libraries](#persistence-libraries)
     - [Reactive libraries](#reactive-libraries)
     - [Testing](#testing)
     - [Web App/API frameworks](#web-appapi-frameworks)
@@ -49,6 +50,10 @@ While the term can sometimes be ambiguous, hopefully it'll become more clear as 
 ## Networking libraries
 
 * [Javaslang-CircuitBreaker](https://github.com/javaslang/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library designed for Java8 and functional programming based on Javaslang. :8ball:
+
+## Persistence libraries
+
+* [Speedment](https://github.com/speedment/speedment) - A fluent database access library that looks just like Java 8 code, using the Stream API for querying. Supports MySQL, MariaDB, and PostgreSQL. :8ball:
 
 ## Reactive libraries
 

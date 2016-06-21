@@ -25,6 +25,12 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
 
 # Libraries and Frameworks
 
+## Distributed Systems libraries
+
+Libraries that support distributed systems, e.g., queues, key-value stores, and quorum/consensus.
+
+* [Atomix](http://atomix.io/atomix/) - Event-driven framework for coordinating fault-tolerant distributed systems built on the Raft consensus algorithm. :8ball:
+
 ## Functional libraries
 
 Libraries that make Java 8 more functional, especially filling in the gaps in streams.

@@ -25,6 +25,10 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
 
 # Libraries and Frameworks
 
+## Code Generators
+
+* [FreeBuilder](https://github.com/google/FreeBuilder) - Writes builder-pattern builders for your code. Very well documented and supports all major IDEs and build tools. Supports Java 8 [mapper methods](https://github.com/google/FreeBuilder#accessor-methods).
+
 ## Distributed Systems libraries
 
 Libraries that support distributed systems, e.g., queues, key-value stores, and quorum/consensus.
@@ -65,7 +69,7 @@ While the term can sometimes be ambiguous, hopefully it'll become more clear as 
 
 Focused on "pulling" items from a stream. There may be overlap between these libraries and the Functional ones (above), but the ones here are primarily/exclusively focused on the [Reactive](http://www.reactive-streams.org/) way of thinking about streams.
 
-* [Simple React](https://github.com/aol/simple-react) - A library that focuses on users needing async and lazy streams. A helpful table comparing the included implementations with Java 8 is [here](https://github.com/aol/simple-react#stream-type-overview). Very well documented with lots of diagrams (yay!). :8ball:
+* [Cyclops React](https://github.com/aol/cyclops-react) - A library that focuses on users needing async and lazy streams (formerly Simple React). Very well documented with lots of diagrams (yay!). :8ball:
 
 ## Testing
 

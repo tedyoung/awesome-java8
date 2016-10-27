@@ -15,6 +15,7 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
     - [Networking libraries](#networking-libraries)
     - [Persistence libraries](#persistence-libraries)
     - [Reactive libraries](#reactive-libraries)
+    - [Streams libraries](#streams-libraries)
     - [Testing](#testing)
     - [Web App/API frameworks](#web-appapi-frameworks)
 - [Tools](#tools)
@@ -70,6 +71,13 @@ While the term can sometimes be ambiguous, hopefully it'll become more clear as 
 Focused on "pulling" items from a stream. There may be overlap between these libraries and the Functional ones (above), but the ones here are primarily/exclusively focused on the [Reactive](http://www.reactive-streams.org/) way of thinking about streams.
 
 * [Cyclops React](https://github.com/aol/cyclops-react) - A library that focuses on users needing async and lazy streams (formerly Simple React). Very well documented with lots of diagrams (yay!). :8ball:
+
+## Streams libraries
+
+These are libraries that enhance existing Java 8 Streams, but aren't trying to define a completely new API.
+I could be convinced to put these under the [Functional](#functional-libraries) libraries, but until then...
+
+* [StreamEx](https://github.com/amaembo/streamex) - Does what it says: enhances the Java 8 streams. The ["cheat sheet"](https://github.com/amaembo/streamex/blob/master/CHEATSHEET.md) is really nice: if you know what you want (e.g., swap keys and values coming from entries in a map), it tells you how to get it. :8ball:
 
 ## Testing
 

@@ -9,6 +9,8 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
 # Contents
 
 - [Libraries and Frameworks](#libraries-and-frameworks)
+    - [Caching libraries](#caching-libraries)
+    - [Distributed Systems libraries](#distributed-systems-libraries)
     - [Functional libraries](#functional-libraries)
     - [Interoperability libraries](#interoperability-libraries)
     - [Microservices](#microservices)
@@ -26,9 +28,11 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
 
 # Libraries and Frameworks
 
-## Code Generators
+Libraries and frameworks become part of your runtime artifact. Libraries consist of code that you call, whereas frameworks require that you inherit from classes or implement interfaces defined in that framework. *Modern Java* prefers the delegation model of Libraries vs. the inheritance model of frameworks, however in some cases, frameworks are worth the inheritance cost, e.g., web frameworks.
 
-* [FreeBuilder](https://github.com/google/FreeBuilder) - Writes builder-pattern builders for your code. Very well documented and supports all major IDEs and build tools. Supports Java 8 [mapper methods](https://github.com/google/FreeBuilder#accessor-methods).
+## Caching Libraries
+
+* [Caffeine](https://github.com/ben-manes/caffeine) - High performance Java 8-based in-memory caching library providing a near optimal "hit rate". Well-documented and flexible. :8ball:
 
 ## Distributed Systems libraries
 
@@ -97,8 +101,9 @@ Frameworks (and micro-frameworks) that make it easy to create services that prov
 
 # Tools
 
-Tools to help upgrade your code to Java 8, or other utilities that don't become part of your codebase.
+Tools to help upgrade your code to Java 8, generate code, or other utilities that don't become part of your codebase.
 
+* [FreeBuilder](https://github.com/google/FreeBuilder) - Writes builder-pattern builders for your code. Very well documented and supports all major IDEs and build tools. Supports Java 8 [mapper methods](https://github.com/google/FreeBuilder#accessor-methods).
 * [Modernizer](https://github.com/andrewgaul/modernizer-maven-plugin) - Use this Maven plugin to find out what libraries you can get rid of and replace with Java 8 (and 7) built-in classes.
 
 

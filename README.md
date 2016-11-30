@@ -58,6 +58,7 @@ Not sure what to call these other than interoperability libraries, i.e., librari
 ## Microservices
 
 While the term can sometimes be ambiguous, hopefully it'll become more clear as new libraries and frameworks become available. This section may include entire frameworks, or libraries that help with coordinating and connecting separately deployed services (aka microservices).
+For HTTP-based services, see [Web App/API frameworks](#web-appapi-frameworks).
 
 * [Apollo](http://spotify.github.io/apollo/) - A library for writing HTTP microservices that focuses on composability and simplicity, with high performance using modern Java idioms and features. :8ball:
 * [SnoopEE](https://github.com/ivargrimstad/snoop) - While this is "experimental", it's worth looking at if you're coming to microservices from a "slimmed down" Java EE point of view and need something to handle service discovery. This was shown in a JavaOne 2015 conference talk [here](https://www.youtube.com/watch?v=REuBLPTeFDg). :8ball:
@@ -93,6 +94,7 @@ I could be convinced to put these under the [Functional](#functional-libraries) 
 
 Frameworks (and micro-frameworks) that make it easy to create services that provide Web APIs (aka REST), and/or full web sites without a "full-blown" JAX-RS implementation.
 
+* [Bootique](http://bootique.io/) - A "minimally opinionated" web framework that leverages Google's Guice dependency-injection library to include modules such as JOOQ, Curator, Jersey, Kafka, Metrics, and more. :8ball:
 * [Jooby Project](https://github.com/jooby-project/jooby) - A modular web framework that supports multiple servers (Netty, Jetty, and Undertow), Websockets, etc., and can be used in many different ways by including a wide variety of modules, e.g., provide a full MVC web site, or just provide APIs. :8ball: 
 * [Play Framework](https://www.playframework.com/documentation/2.4.x/Installing) - The popular Play Framework, from Typesafe, is "reactive" and built on Akka (the Actor framework) and supports non-blocking I/O, and is stateless. :8ball:
 * [Ratpack](https://ratpack.io) - Reactive framework built on the [Netty](http://netty.io/) engine for non-blocking I/O. Also supports Groovy. :8ball:

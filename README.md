@@ -65,7 +65,7 @@ For HTTP-based services, see [Web App/API frameworks](#web-appapi-frameworks).
 
 ## Networking libraries
 
-* [Javaslang-CircuitBreaker](https://github.com/javaslang/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library designed for Java8 and functional programming based on Javaslang. :8ball:
+* [Javaslang-CircuitBreaker](https://github.com/RobWin/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library (inspired by Netflix's Hystrix designed for Java8 and functional programming based on Javaslang and supports RxJava. :8ball:
 
 ## Persistence libraries
 

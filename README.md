@@ -56,7 +56,7 @@ Libraries that make Java 8 more functional, especially filling in the gaps in st
 
 ## General-purpose libraries
 
-For libraries with many features that don't fit in a single category. _Honestly, this section was just created so that it can hold Guava, which as of (Release 21](https://github.com/google/guava/wiki/Release21) requires Java 8+._
+For libraries with many features that don't fit in a single category. _Honestly, this section was just created so that it can hold Guava, which as of [Release 21](https://github.com/google/guava/wiki/Release21) requires Java 8+._
 
 * [Guava](https://github.com/google/guava) - One of the most widely used and well-written general-purpose Java libraries. As of Release 21, only works with Java 8 (or later). :8ball:
 

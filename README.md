@@ -16,6 +16,7 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
     - [Caching libraries](#caching-libraries)
     - [Distributed Systems libraries](#distributed-systems-libraries)
     - [Functional libraries](#functional-libraries)
+    - [General-purpose libraries](#general-purpose-libraries)
     - [Interoperability libraries](#interoperability-libraries)
     - [Microservices](#microservices)
     - [Networking libraries](#networking-libraries)
@@ -32,7 +33,7 @@ If you want a larger list of Java resources not specific to Java 8, check out [A
 
 # Libraries and Frameworks
 
-Libraries and frameworks become part of your runtime artifact. Libraries consist of code that you call, whereas frameworks require that you inherit from classes or implement interfaces defined in that framework. *Modern Java* prefers the delegation model of Libraries vs. the inheritance model of frameworks, however in some cases, frameworks are worth the inheritance cost, e.g., web frameworks.
+Libraries and frameworks become part of your runtime artifact. Libraries consist of code that you call, whereas frameworks require that you inherit from classes or implement interfaces defined in that framework. *Modern Java* prefers the delegation model of Libraries vs. the inheritance model of frameworks, however in some cases, frameworks might be worth the inheritance cost, e.g., web frameworks.
 
 ## Caching Libraries
 
@@ -52,6 +53,12 @@ Libraries that make Java 8 more functional, especially filling in the gaps in st
 * [Javaslang](http://www.javaslang.io/) - Adds the notion of Tuples, along with immutable Values and Pattern Matching, to make it easier to write more functional Java code. :8ball:
 * [jOOλ](https://github.com/jOOQ/jOOL) - Part of the jOOQ series of libraries, provides more Functions, Tuples, and `Seq` that provides methods like `crossJoin()`, `join()`, and `groupBy()`. :8ball:
 * [ProtonPack](https://github.com/poetix/protonpack) - Offers about a dozen utilities for `Stream`, e.g., `takeWhile`, `zip`, `aggregate`, and a `unique` collector. :8ball: 
+
+## General-purpose libraries
+
+For libraries with many features that don't fit in a single category. _Honestly, this section was just created so that it can hold Guava, which as of (Release 21](https://github.com/google/guava/wiki/Release21) requires Java 8+._
+
+* [Guava](https://github.com/google/guava) - One of the most widely used and well-written general-purpose Java libraries. As of Release 21, only works with Java 8 (or later). :8ball:
 
 ## Interoperability libraries
 

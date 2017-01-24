@@ -87,13 +87,12 @@ For HTTP-based services, see [Web App/API frameworks](#web-appapi-frameworks).
 Focused on "pulling" items from a stream. There may be overlap between these libraries and the Functional ones (above), but the ones here are primarily/exclusively focused on the [Reactive](http://www.reactive-streams.org/) way of thinking about streams.
 
 * [Cyclops React](https://github.com/aol/cyclops-react) - A library that focuses on users needing async and lazy streams (formerly Simple React). Very well documented with lots of diagrams (yay!). :8ball:
-
-* [Project Reactor](http://projectreactor.io/) - Reactor is a second-generation Reactive library for building non-blocking applications on
-the JVM based on the Reactive Streams Specification. It directly interacts with Java 8 functional API, Completable Future, Stream and Duration. :8ball:
+* [Project Reactor](http://projectreactor.io/) - A second-generation Reactive library for building non-blocking applications on the JVM based on the Reactive Streams Specification.
+It directly interacts with the Java 8 functional API, Completable Future, Stream and Duration. :8ball:
 
 ## Streams libraries
 
-These are libraries that enhance existing Java 8 Streams, but aren't trying to define a completely new API.
+These are libraries that enhance the existing Java 8 Streams, but aren't trying to define a completely new API.
 I could be convinced to put these under the [Functional](#functional-libraries) libraries, but until then...
 
 * [StreamEx](https://github.com/amaembo/streamex) - Does what it says: enhances the Java 8 streams. The ["cheat sheet"](https://github.com/amaembo/streamex/blob/master/CHEATSHEET.md) is really nice: if you know what you want (e.g., swap keys and values coming from entries in a map), it tells you how to get it. :8ball:

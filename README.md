@@ -52,7 +52,7 @@ Libraries that make Java 8 more functional, especially filling in the gaps in st
 * [Derive4J](https://github.com/derive4j/derive4j) - Code generator for user-defined algebraic data types (aka sum types) based on an enhanced "visitor" pattern. Provides structural pattern matching, laziness, functional setters (return a copy of an object with one field modified) & more. :8ball:
 * [Javaslang](http://www.javaslang.io/) - Adds the notion of Tuples, along with immutable Values and Pattern Matching, to make it easier to write more functional Java code. :8ball:
 * [jOOλ](https://github.com/jOOQ/jOOL) - Part of the jOOQ series of libraries, provides more Functions, Tuples, and `Seq` that provides methods like `crossJoin()`, `join()`, and `groupBy()`. :8ball:
-* [ProtonPack](https://github.com/poetix/protonpack) - Offers about a dozen utilities for `Stream`, e.g., `takeWhile`, `zip`, `aggregate`, and a `unique` collector. :8ball: 
+* [ProtonPack](https://github.com/poetix/protonpack) - Offers about a dozen utilities for `Stream`, e.g., `takeWhile`, `zip`, `aggregate`, and a `unique` collector. :8ball:
 
 ## General-purpose libraries
 
@@ -88,6 +88,9 @@ Focused on "pulling" items from a stream. There may be overlap between these lib
 
 * [Cyclops React](https://github.com/aol/cyclops-react) - A library that focuses on users needing async and lazy streams (formerly Simple React). Very well documented with lots of diagrams (yay!). :8ball:
 
+* [Project Reactor](http://projectreactor.io/) - Reactor is a second-generation Reactive library for building non-blocking applications on
+the JVM based on the Reactive Streams Specification. It directly interacts with Java 8 functional API, Completable Future, Stream and Duration. :8ball:
+
 ## Streams libraries
 
 These are libraries that enhance existing Java 8 Streams, but aren't trying to define a completely new API.
@@ -106,7 +109,7 @@ I could be convinced to put these under the [Functional](#functional-libraries) 
 Frameworks (and micro-frameworks) that make it easy to create services that provide Web APIs (aka REST), and/or full web sites without a "full-blown" JAX-RS implementation.
 
 * [Bootique](http://bootique.io/) - A "minimally opinionated" web framework that leverages Google's Guice dependency-injection library to include modules such as JOOQ, Curator, Jersey, Kafka, Metrics, and more. :8ball:
-* [Jooby Project](https://github.com/jooby-project/jooby) - A modular web framework that supports multiple servers (Netty, Jetty, and Undertow), Websockets, etc., and can be used in many different ways by including a wide variety of modules, e.g., provide a full MVC web site, or just provide APIs. :8ball: 
+* [Jooby Project](https://github.com/jooby-project/jooby) - A modular web framework that supports multiple servers (Netty, Jetty, and Undertow), Websockets, etc., and can be used in many different ways by including a wide variety of modules, e.g., provide a full MVC web site, or just provide APIs. :8ball:
 * [Play Framework](https://www.playframework.com/documentation/2.4.x/Installing) - The popular Play Framework, from Typesafe, is "reactive" and built on Akka (the Actor framework) and supports non-blocking I/O, and is stateless. :8ball:
 * [Ratpack](https://ratpack.io) - Reactive framework built on the [Netty](http://netty.io/) engine for non-blocking I/O. Also supports Groovy. :8ball:
 * [Spark Java](http://sparkjava.com/) - Concise (micro-) framework for quickly creating Web APIs or web pages. Does not use annotations. Embeds the [Jetty](http://www.eclipse.org/jetty/) web server. :8ball:

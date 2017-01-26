@@ -48,6 +48,7 @@ Libraries that support distributed systems, e.g., queues, key-value stores, and 
 ## Functional libraries
 
 Libraries that make Java 8 more functional, especially filling in the gaps in streams.
+For strictly stream enhancements, go to the [Streams libraries](#streams-libraries) section.
 
 * [Derive4J](https://github.com/derive4j/derive4j) - Code generator for user-defined algebraic data types (aka sum types) based on an enhanced "visitor" pattern. Provides structural pattern matching, laziness, functional setters (return a copy of an object with one field modified) & more. :8ball:
 * [Javaslang](http://www.javaslang.io/) - Adds the notion of Tuples, along with immutable Values and Pattern Matching, to make it easier to write more functional Java code. :8ball:

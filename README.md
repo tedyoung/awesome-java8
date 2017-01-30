@@ -103,6 +103,7 @@ I could be convinced to put these under the [Functional](#functional-libraries) 
 * [AssertJ](http://joel-costigliola.github.io/assertj/index.html) - Fluent assertions for Java unit testing, with the 3.0 release requiring Java 8. :8ball:
 * [Lambda Behave](http://richardwarburton.github.io/lambda-behave/) - BDD-oriented framework that leverages lambdas to make tests more "behavioral". If you've seen Jasmine or Spock, this will be familiar. :8ball:
 * [Mockito](https://github.com/szpak/mockito-java8) - The Java 8-specific version of the wonderful mocking library, Mockito. Works great with *AssertJ*. :8ball:
+* [pojo-tester](http://pojo.pl) - Open source Java `pojo-methods` testing liibrary. It allows testing equals, hashCode, toString, getters, setter and constructors. It eliminates bugs in those methods and improve code coverage.
 
 ## Web App/API frameworks
 

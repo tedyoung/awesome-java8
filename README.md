@@ -77,7 +77,11 @@ For HTTP-based services, see [Web App/API frameworks](#web-appapi-frameworks).
 
 ## Networking libraries
 
-* [Javaslang-CircuitBreaker](https://github.com/RobWin/javaslang-circuitbreaker) - A lightweight, easy-to-use CircuitBreaker library (inspired by Netflix's Hystrix designed for Java8 and functional programming based on Javaslang and supports RxJava. :8ball:
+Perhaps this belongs in "distributed systems libraries", since dist-sys requires resiliency, though I like calling out resiliency as it's often overlooked.
+I'll leave this here for now until someone has an opinion.
+
+* [Resilience4j](https://github.com/resilience4j/resilience4j) - A lightweight, easy-to-use, fault-tolerance library designed for Java8 and functional programming (inspired by Netflix's Hystrix).
+In addition to circuit-breakers, also retries, rate-limiting, and metrics. :8ball:
 
 ## Persistence libraries
 

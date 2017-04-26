@@ -116,6 +116,7 @@ Frameworks (and micro-frameworks) that make it easy to create services that prov
 * [Jooby Project](https://github.com/jooby-project/jooby) - A modular web framework that supports multiple servers (Netty, Jetty, and Undertow), Websockets, etc., and can be used in many different ways by including a wide variety of modules, e.g., provide a full MVC web site, or just provide APIs. :8ball:
 * [Play Framework](https://www.playframework.com/documentation/2.4.x/Installing) - The popular Play Framework, from Typesafe, is "reactive" and built on Akka (the Actor framework) and supports non-blocking I/O, and is stateless. :8ball:
 * [Ratpack](https://ratpack.io) - Reactive framework built on the [Netty](http://netty.io/) engine for non-blocking I/O. Also supports Groovy. :8ball:
+* [Vertx](http://vertx.io/) - Mature, extermely fast reactive framework built on [Netty](http://netty.io) engine for non-blocking I/O. Modular and supports multiple languages. Great community support and documentation. :8ball:
 * [Spark Java](http://sparkjava.com/) - Concise (micro-) framework for quickly creating Web APIs or web pages. Does not use annotations. Embeds the [Jetty](http://www.eclipse.org/jetty/) web server. :8ball:
 
 
